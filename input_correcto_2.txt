@@ -1,0 +1,3 @@
+cola c {
+  crear([])!
+}
