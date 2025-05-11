@@ -1,0 +1,5 @@
+cola MiCola {
+    crear([1,2,"texto"])!
+    encolar("nuevo elemento")!
+
+}
