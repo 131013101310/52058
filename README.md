@@ -11,13 +11,11 @@ Este proyecto implementa un **analizador léxico, sintáctico e intérprete** pa
 
    ``` npm install antlr4 ```
 
-3. Analizar sintaxis (verifica errores y tokens):
+3. Ejecutar analizador y traductor!
 
    ``` node index.js ```
 
-4. Traducir código fuente a JavaScript:
 
-   ``` node customVisitor.js ```
 
 > Los comandos esperan que `input.txt` contenga el código fuente en lenguaje "cola".
 
