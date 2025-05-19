@@ -1,3 +1,5 @@
-cola c {
+cola vacia {
   crear([])!
+  encolar("Único")!
+  desencolar()!
 }

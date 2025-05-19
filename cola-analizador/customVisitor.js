@@ -15,7 +15,7 @@ parser.buildParseTrees = true;
 const tree = parser.programa();
 
 
-class ColaToJSVisitor extends colaVisitor {
+export default class ColaToJSVisitor extends colaVisitor {
   constructor() {
     super();
     this.output = '';
@@ -61,10 +61,3 @@ class ColaToJSVisitor extends colaVisitor {
     if (ctx.texto()) return ctx.getText();
   }
 }
-
-
-const visitor = new ColaToJSVisitor();
-visitor.visit(tree);
-
-console.log("🟢 Código JavaScript generado:\n");
-console.log(visitor.output);

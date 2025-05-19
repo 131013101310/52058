@@ -1,4 +1,4 @@
-// Generated from c:/Users/pedro/Documents/52058/cola.g4 by ANTLR 4.13.2
+// Generated from c:/Users/pedro/Documents/52058/cola-analizador/cola.g4 by ANTLR 4.13.2
 // jshint ignore: start
 import antlr4 from 'antlr4';
 import colaListener from './colaListener.js';
